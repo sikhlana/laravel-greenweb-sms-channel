@@ -1,0 +1,39 @@
+{
+    "name": "sikhlana/laravel-greenweb-sms-channel",
+    "description": "Greenweb SMS Notifications driver for Laravel.",
+    "keywords": ["laravel", "notifications", "channel", "sms", "greenweb"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saif Mahmud",
+            "email": "sikhlana@gmail.com",
+            "homepage": "https://saifmahmud.name",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/notifications": "^5.6",
+        "laravel/framework": "^5.6",
+        "propaganistas/laravel-phone": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sikhlana\\GreenwebSmsChannel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sikhlana\\GreenwebSmsChannel\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

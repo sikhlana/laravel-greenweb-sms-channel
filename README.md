@@ -47,8 +47,8 @@ GREENWEB_SMS_TOKEN=
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use \Sikhlana\GreenwebSmsChannel\GreenwebChannel;
-use \Sikhlana\GreenwebSmsChannel\GreenwebMessage;
+use Sikhlana\GreenwebSmsChannel\GreenwebChannel;
+use Sikhlana\GreenwebSmsChannel\GreenwebMessage;
 use Illuminate\Notifications\Notification;
 
 class AccountApproved extends Notification

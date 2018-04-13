@@ -33,7 +33,7 @@ First you must install the service provider (skip for Laravel >= 5.5):
 ],
 ```
 
-### Setting up your Greenweb service
+### Setting up the Greenweb service
 
 Add your generated Greenweb SMS API key in your `.env` file:
 

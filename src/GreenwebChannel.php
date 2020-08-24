@@ -10,7 +10,7 @@ use Propaganistas\LaravelPhone\PhoneNumber;
 
 class GreenwebChannel
 {
-    const API_URL = 'http://sms.greenweb.com.bd/api.php';
+    const API_URL = 'http://api.greenweb.com.bd/api.php';
 
     /**
      * The Guzzle HTTP implementation.
